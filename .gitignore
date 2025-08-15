@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+*.conda
+
+# Jupyter/IPython
+.ipynb_checkpoints
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Data and results (keep big/raw data out of repo)
+data/
+arco/
+weekly/
+results/
+models/
+outputs/
+*.nc
+*.npz
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
