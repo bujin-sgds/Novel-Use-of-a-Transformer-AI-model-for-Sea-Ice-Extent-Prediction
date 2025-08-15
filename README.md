@@ -1,6 +1,6 @@
-# ZhiQiu Model v8.5 — Transformer-based Sea Ice Prediction
+# ZhiQiu Model v8.5 — Novel Use of a Transformer AI model for Sea Ice Extent Prediction
 
-> 一键上手的 **GitHub 开源模板**，已包含 README、许可协议、依赖清单、.gitignore、Git LFS 配置等。将你的代码放进 `src/` 目录即可提交。
+Recent developments in AI models, particularly large language models or GTPs, have made the use of transformer models easily accessible. Transformers are able to digest both static correlations and time based variations in data. Previous AI methods in sea ice extent predictions have used static NN approaches to target a particular target month. This project aims to adapt readily available transformer models to digest Arctic (or Antarctic if you really want to) sea ice extent and additional forcing data to represent the seasonal cycle of sea ice extent, and look to a novel forcasting system。
 
 ## 目录结构
 
@@ -74,8 +74,10 @@
 
 *左上：像素级预测与真实值对比（R²=0.9368）；左下：空间平均绝对误差（MAE）；右下：空间预测不确定性（MC Dropout Std Dev）*
 
----
+---<img width="3600" height="3000" alt="comprehensive_analysis_20250814_215242" src="https://github.com/user-attachments/assets/ae222afe-c788-4bb0-8681-93db70221048" />
+
 
 ### 📌 SIE 时间序列对比
 
 *黑色为观测值，红色为模型预测，阴影为 95% 置信区间。可以看到模型在 2021–2022 年度的月度变化趋势上与真实观测高度吻合。*
+<img width="3600" height="1800" alt="SIE_timeseries_20250814_215242" src="https://github.com/user-attachments/assets/a7927a74-91db-4365-be23-f1ee74b5b12c" />
