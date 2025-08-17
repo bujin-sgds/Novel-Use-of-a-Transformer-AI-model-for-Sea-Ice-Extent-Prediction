@@ -81,3 +81,5 @@ Recent developments in AI models, particularly large language models or GTPs, ha
 
 *黑色为观测值，红色为模型预测，阴影为 95% 置信区间。可以看到模型在 2021–2022 年度的月度变化趋势上与真实观测高度吻合。*
 <img width="3600" height="1800" alt="SIE_timeseries_20250814_215242" src="https://github.com/user-attachments/assets/a7927a74-91db-4365-be23-f1ee74b5b12c" />
+
+目前还在试验阶段，最终成功待更新....
